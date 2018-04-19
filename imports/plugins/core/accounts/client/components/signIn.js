@@ -106,7 +106,7 @@ class SignIn extends Component {
     }
     return (
       <Components.Button
-        className="btn-block"
+        className="btn-block not-show"
         primary={true}
         bezelStyle="solid"
         i18nKeyLabel="accountsUI.signIn"
@@ -126,6 +126,7 @@ class SignIn extends Component {
 
     const passwordClasses = classnames({
       "form-group": true,
+      "form-group-password": true,
       "has-error has-feedback": this.props.onError(this.props.messages.errors && this.props.messages.errors.password)
     });
     return (
