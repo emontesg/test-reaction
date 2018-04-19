@@ -66,7 +66,10 @@ class SignIn extends Component {
       );
     }
   }
-
+  handleClick = (e) => {
+    e.preventDefault();
+    window.location.href = 'https://account.play.knowledge.io/sign-up/basic-information';
+  }
   renderPasswordErrors() {
     return (
       <span className="help-block">
@@ -172,7 +175,8 @@ class SignIn extends Component {
               tagName="span"
               className={{
                 "btn": false,
-                "btn-default": false
+                "btn-default": false,
+                "forgot-pass": true
               }}
               label="Reset Password"
               i18nKeyLabel="accountsUI.forgotPassword"
@@ -188,7 +192,7 @@ class SignIn extends Component {
               label="Register"
               i18nKeyLabel="accountsUI.signUp"
               data-event-category="accounts"
-              onClick={this.props.onSignUpClick}
+              onClick={this.handleClick}
             />
           </div>
 
