@@ -179,6 +179,7 @@
     }
   },
   "scripts": {
+    "start": "reaction --port 3030",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "test": "npm run test:unit && npm run test:app",
