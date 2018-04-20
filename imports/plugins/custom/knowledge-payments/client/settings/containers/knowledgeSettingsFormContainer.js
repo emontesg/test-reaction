@@ -4,9 +4,9 @@ import { composeWithTracker } from "@reactioncommerce/reaction-components";
 import { Meteor } from "meteor/meteor";
 import { Packages } from "/lib/collections";
 import { Reaction, i18next } from "/client/api";
-import { ExampleSettingsForm } from "../components";
+import { KnowledgeSettingsForm } from "../components";
 
-class ExampleSettingsFormContainer extends Component {
+class KnowledgeSettingsFormContainer extends Component {
   constructor(props) {
     super(props);
 
@@ -53,7 +53,7 @@ class ExampleSettingsFormContainer extends Component {
   render() {
     const { settingsKey } = this.props.packageData.registry[0];
     return (
-      <ExampleSettingsForm
+      <KnowledgeSettingsForm
         onChange={this.handleChange}
         onSubmit={this.handleSubmit}
         settings={this.props.packageData.settings[settingsKey]}
@@ -62,7 +62,7 @@ class ExampleSettingsFormContainer extends Component {
   }
 }
 
-ExampleSettingsFormContainer.propTypes = {
+KnowledgeSettingsFormContainer.propTypes = {
   packageData: PropTypes.object
 };
 
@@ -77,4 +77,4 @@ const composer = (props, onData) => {
   }
 };
 
-export default composeWithTracker(composer)(ExampleSettingsFormContainer);
+export default composeWithTracker(composer)(KnowledgeSettingsFormContainer);

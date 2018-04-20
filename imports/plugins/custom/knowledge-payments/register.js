@@ -2,37 +2,36 @@
 import { Reaction } from "/server/api";
 
 Reaction.registerPackage({
-  label: "ExamplePayment",
-  name: "example-paymentmethod",
+  label: "KnowledgePayment",
+  name: "knowledge-paymentmethod",
   icon: "fa fa-credit-card-alt",
   autoEnable: true,
   settings: {
     "mode": false,
     "apiKey": "",
     "example": {
-      enabled: false
+      enabled: true
     },
-    "example-paymentmethod": {
-      enabled: false,
+    "knowledge-paymentmethod": {
+      enabled: true,
       support: [
         "Authorize",
         "Capture",
-        "Refund"
       ]
     }
   },
   registry: [
     // Settings panel
     {
-      label: "Example Payment", // this key (minus spaces) is used for translations
+      label: "Knowledge Payment", // this key (minus spaces) is used for translations
       provides: ["paymentSettings"],
       container: "dashboard",
-      template: "exampleSettings"
+      template: "knowledgeSettings"
     },
 
     // Payment form for checkout
     {
-      template: "examplePaymentForm",
+      template: "knowledgePaymentForm",
       provides: ["paymentMethod"],
       icon: "fa fa-credit-card-alt"
     }

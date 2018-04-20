@@ -4,7 +4,7 @@ Reaction.registerPackage({
   label: "Shopify Connect",
   name: "reaction-connectors-shopify",
   icon: "fa fa-exchange",
-  autoEnable: true,
+  autoEnable: false,
   settings: {
     apiKey: "",
     password: "",

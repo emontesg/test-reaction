@@ -4,7 +4,7 @@ Reaction.registerPackage({
   label: "Taxes",
   name: "taxes-taxcloud",
   icon: "fa fa-university",
-  autoEnable: true,
+  autoEnable: false,
   settings: {
     taxcloud: {
       enabled: false,

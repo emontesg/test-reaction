@@ -4,7 +4,7 @@ Reaction.registerPackage({
   label: "Avalara",
   name: "taxes-avalara",
   icon: "fa fa-university",
-  autoEnable: true,
+  autoEnable: false,
   settings: {
     avalara: {
       enabled: false,

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import _ from "lodash";
 import { TextField, Translation, Checkbox } from "/imports/plugins/core/ui/client/components";
 
-class ExampleSettingsForm extends Component {
+class KnowledgeSettingsForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -118,10 +118,10 @@ class ExampleSettingsForm extends Component {
   }
 }
 
-ExampleSettingsForm.propTypes = {
+KnowledgeSettingsForm.propTypes = {
   onChange: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
   settings: PropTypes.object
 };
 
-export default ExampleSettingsForm;
+export default KnowledgeSettingsForm;

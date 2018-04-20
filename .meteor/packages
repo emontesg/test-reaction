@@ -70,3 +70,6 @@ johanbrook:publication-collector
 
 # Custom Packages
 knowledgeio:accounts-knowledge
+aldeed:simple-schema
+mquandalle:jade
+mrt:flash-messages

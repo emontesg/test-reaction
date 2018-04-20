@@ -4,7 +4,7 @@ Reaction.registerPackage({
   label: "SMS",
   name: "reaction-sms",
   icon: "fa fa-mobile",
-  autoEnable: true,
+  autoEnable: false,
   settings: {
     name: "SMS"
   },
