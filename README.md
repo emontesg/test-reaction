@@ -1,13 +1,27 @@
-# Reaction Commerce
+# Knowledge Marketplace
 
-[![Circle CI](https://circleci.com/gh/reactioncommerce/reaction.svg?style=svg)](https://circleci.com/gh/reactioncommerce/reaction) [![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/reactioncommerce/reaction?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Open Source Helpers](https://www.codetriage.com/reactioncommerce/reaction/badges/users.svg)](https://www.codetriage.com/reactioncommerce/reaction)
+[![Collaborative Etiquette](https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg)](https://git.io/col)
 
+This is the knowledge marketplace code base.  It is based on [Reaction](http://reactioncommerce.com), an event-driven, real-time reactive commerce platform built with JavaScript (ES6). It plays nicely with npm, Docker, and React.
 
-[Reaction](http://reactioncommerce.com) is an event-driven, real-time reactive commerce platform built with JavaScript (ES6). It plays nicely with npm, Docker, and React.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Contents
 
-![Reaction v.1.x](https://raw.githubusercontent.com/reactioncommerce/reaction-docs/master/assets/Reaction-Commerce-Illustration-BG-800px.png)
+  - [Features](#features)
+- [Getting started](#getting-started)
+    - [Requirements](#requirements)
+    - [Install and create your first store](#install-and-create-your-first-store)
+- [Get involved](#get-involved)
+  - [Documentation and tools](#documentation-and-tools)
+  - [Get help](#get-help)
+  - [Learn](#learn)
+  - [Contact the team](#contact-the-team)
+  - [Contribute](#contribute)
+  - [Deploy on Docker](#deploy-on-docker)
+    - [License](#license)
 
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 ## Features
 
 Reaction’s out-of-the-box core features include:

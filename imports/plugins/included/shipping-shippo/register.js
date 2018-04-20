@@ -4,7 +4,7 @@ Reaction.registerPackage({
   label: "Shippo",
   name: "reaction-shippo",
   icon: "fa fa-plane",
-  autoEnable: true,
+  autoEnable: false,
   settings: {
     shippo: {
       enabled: false

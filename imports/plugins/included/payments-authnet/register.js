@@ -5,7 +5,7 @@ Reaction.registerPackage({
   label: "Authorize.net",
   name: "reaction-auth-net",
   icon: "fa fa-credit-card",
-  autoEnable: true,
+  autoEnable: false,
   settings: {
     "api_id": "",
     "transaction_key": "",

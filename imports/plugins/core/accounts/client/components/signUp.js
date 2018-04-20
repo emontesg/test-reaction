@@ -39,7 +39,10 @@ class SignUp extends Component {
       this.props.onFormSubmit(event, this.state.email, this.state.password);
     }
   }
-
+  handleClick = (e) => {
+    e.preventDefault();
+    window.location.href = 'https://account.play.knowledge.io/sign-up/basic-information';
+  }
   renderEmailErrors() {
     if (this.props.onError(this.props.messages.errors && this.props.messages.errors.email)) {
       return (
@@ -95,7 +98,7 @@ class SignUp extends Component {
         i18nKeyLabel="accountsUI.signUpButton"
         label="Register"
         type="submit"
-        eventAction="register"
+        onClick={this.handleClick}
       />
     );
   }
@@ -142,7 +145,8 @@ class SignUp extends Component {
               tagName="span"
               className={{
                 "btn": false,
-                "btn-default": false
+                "btn-default": false,
+                "not-show" : true
               }}
               label="Sign In"
               i18nKeyLabel="accountsUI.signIn"
