@@ -1,0 +1,2 @@
+{"{}/imports/plugins/included/default-theme/client/styles/loading.less":"f4b04dbb9ae80517cb9b1c5e3f01fa9b342cbac8"}
+{"css":".loader-wrapper {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-150%, -300%);\n}\n","sourceMap":{"version":3,"sources":["imports/plugins/included/default-theme/client/styles/loading.less"],"names":[],"mappings":"AAAA;EACE,eAAA;EACA,QAAA;EACA,SAAA;EACA,WAAW,uBAAX","sourcesContent":[".loader-wrapper {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-150%, -300%);\n}\n"]}}

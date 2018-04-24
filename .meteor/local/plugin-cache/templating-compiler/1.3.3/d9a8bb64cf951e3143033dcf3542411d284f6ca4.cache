@@ -1,0 +1,1 @@
+{"head":"<style id=\"reactionLayoutStyles\"></style>","body":"","js":"\nTemplate.__checkName(\"theme\");\nTemplate[\"theme\"] = new Template(\"Template.theme\", (function() {\n  var view = this;\n  return \"\";\n}));\n","bodyAttrs":{}}

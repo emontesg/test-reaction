@@ -1,0 +1,2 @@
+{"{}/imports/plugins/included/default-theme/client/styles/search/dashboard.less":"4e168afff7f3f0571d43fbd695d06a4e803ed579"}
+{"css":".rtl span.searchSettingsCheckbox {\n  padding-right: 20px;\n}\n","sourceMap":{"version":3,"sources":["imports/plugins/included/default-theme/client/styles/search/dashboard.less"],"names":[],"mappings":"AAAA,IAAK,KAAI;EACP,mBAAA","sourcesContent":[".rtl span.searchSettingsCheckbox {\n  padding-right: 20px;\n}\n"]}}

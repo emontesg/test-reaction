@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"menuButton\");\nTemplate[\"menuButton\"] = new Template(\"Template.menuButton\", (function() {\n  var view = this;\n  return HTML.Raw('<button class=\"rui button\">\\n    <i class=\"fa fa-bars\"></i>\\n  </button>');\n}));\n","bodyAttrs":{}}

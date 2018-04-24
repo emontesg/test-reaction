@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"inventoryDashboard\");\nTemplate[\"inventoryDashboard\"] = new Template(\"Template.inventoryDashboard\", (function() {\n  var view = this;\n  return \"Sorry, there is not an inventory dashboard yet.\";\n}));\n","bodyAttrs":{}}

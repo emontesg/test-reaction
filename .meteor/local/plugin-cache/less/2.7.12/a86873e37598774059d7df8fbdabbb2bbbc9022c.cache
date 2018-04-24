@@ -1,0 +1,2 @@
+{"{}/imports/plugins/included/default-theme/client/styles/products/productList.less":"0acff4b7772cf06fcf0949d3141a8a88c4da777e"}
+{"css":".product-list {\n  display: none;\n}\n.product-list-item img {\n  margin-top: 20px;\n}\n","sourceMap":{"version":3,"sources":["imports/plugins/included/default-theme/client/styles/products/productList.less"],"names":[],"mappings":"AAAA;EACE,aAAA;;AAEF,kBAAmB;EACjB,gBAAA","sourcesContent":[".product-list {\n  display: none;\n}\n.product-list-item img {\n  margin-top: 20px;\n}"]}}

@@ -1,0 +1,2 @@
+{"{}/node_modules/swiper/src/components/effect-coverflow/effect-coverflow.less":"e27a73c70dd08f94237c052d3bf16d455e38f8c1"}
+{"css":".swiper-container-coverflow .swiper-wrapper {\n  /* Windows 8 IE 10 fix */\n  -ms-perspective: 1200px;\n}\n","sourceMap":{"version":3,"sources":["node_modules/swiper/src/components/effect-coverflow/effect-coverflow.less"],"names":[],"mappings":"AAAA,2BACE;;EAEE,uBAAA","sourcesContent":[".swiper-container-coverflow {\n  .swiper-wrapper {\n    /* Windows 8 IE 10 fix */\n    -ms-perspective: 1200px;\n  }\n}\n"]}}

@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"paypalCancel\");\nTemplate[\"paypalCancel\"] = new Template(\"Template.paypalCancel\", (function() {\n  var view = this;\n  return HTML.Raw('<div class=\"spinner-container\">\\n      <div class=\"spinner\"></div>\\n    </div>\\n  <div class=\"updatedInfo\"></div>');\n}));\n","bodyAttrs":{}}

@@ -1,0 +1,1 @@
+{"head":"","body":"","js":"\nTemplate.__checkName(\"inventorySettings\");\nTemplate[\"inventorySettings\"] = new Template(\"Template.inventorySettings\", (function() {\n  var view = this;\n  return \"Sorry, there are no UI inventory settings yet.\";\n}));\n","bodyAttrs":{}}
