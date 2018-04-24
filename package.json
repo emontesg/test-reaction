@@ -2,6 +2,9 @@
   "name": "reaction",
   "description": "Reaction is a modern reactive, real-time event driven ecommerce platform.",
   "version": "1.11.0",
+  "engines": {
+    "node": "8.9.4"
+  },
   "main": "main.js",
   "directories": {
     "test": "tests"
@@ -198,13 +201,10 @@
     "test": "npm run test:unit && npm run test:app",
     "test:app": "meteor test --once --full-app --driver-package meteortesting:mocha",
     "test:app:watch": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
-    "test:unit": "NODE_ENV=jesttest BABEL_DISABLE_CACHE=1 jest --no-cache --testPathIgnorePatterns /tests/",
-    "test:unit:watch": "NODE_ENV=jesttest BABEL_DISABLE_CACHE=1 jest --no-cache --watch",
-    "test:integration": "NODE_ENV=jesttest BABEL_DISABLE_CACHE=1 jest --no-cache /tests/",
-    "test:integration:watch": "NODE_ENV=jesttest BABEL_DISABLE_CACHE=1 jest --no-cache --watch /tests/",
-    "docs": "jsdoc . --configure .reaction/jsdoc/jsdoc.json --readme .reaction/jsdoc/templates/static/README.md",
     "test:unit": "NODE_ENV=jesttest jest",
     "test:unit:watch": "NODE_ENV=jesttest jest --watch",
+    "test:integration": "NODE_ENV=jesttest BABEL_DISABLE_CACHE=1 jest --no-cache /tests/",
+    "test:integration:watch": "NODE_ENV=jesttest BABEL_DISABLE_CACHE=1 jest --no-cache --watch /tests/",
     "docs": "jsdoc . --configure .reaction/jsdoc/jsdoc.json --readme .reaction/jsdoc/templates/static/README.md",
     "nsp": "nsp check",
     "doctoc": "doctoc --github --title \"## Contents\" README.md"
